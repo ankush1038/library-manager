@@ -19,7 +19,7 @@ public class LibraryService {
 
     public void viewBooks(){
         if(books.isEmpty()){
-            System.out.println("Nooks available");
+            System.out.println("No Books available");
             return;
         }
         for(Book book : books){
