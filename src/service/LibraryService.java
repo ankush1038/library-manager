@@ -60,7 +60,7 @@ public class LibraryService {
         for(Book book : books){
             if(book.getId() == id){
                 if(!book.isIssued()){
-                    System.out.println("Book was mot issued");
+                    System.out.println("Book was not issued");
                 }
                 else{
                     book.setIssued(false);
